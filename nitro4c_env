@@ -1,0 +1,11 @@
+if [ x"$NITRO4C_HOME" = x"" ]; then
+    export NITRO4C_HOME=~/Prog/nitro4c
+    export PATH="$PATH:$NITRO4C_HOME/bin"
+fi
+
+alias edit='find . \( -name \*.c -or -name \*.h -or -name makefile \) -exec vim -p \{\} +'
+alias edit_ch='find . \( -name \*.c -or -name \*.h \) -exec vim -p \{\} +'
+alias edit_c='find . -name \*.c -exec vim -p \{\} +'
+alias edit_h='find . -name \*.h -exec vim -p \{\} +'
+alias edit_m='find . -name makefile -exec vim -p \{\} +'
+

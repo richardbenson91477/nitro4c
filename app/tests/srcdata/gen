@@ -1,0 +1,34 @@
+#!/bin/sh
+
+cp data/*.smt ../data/
+
+for f in *.splinea; do
+    BN=$(basename "$f" .splinea)
+    splinea_to_spline "$f" ../data/"$BN".spline
+    done
+
+for f in *.compa; do
+    BN=$(basename "$f" .compa)
+    compa_to_comp "$f" ../data/"$BN".comp
+    done
+
+for f in *.png; do
+    BN=$(basename "$f" .png)
+    png_to_rwh "$f" ../data/"$BN".rwh
+    done
+
+for f in *.moda; do
+    BN=$(basename "$f" .moda)
+    moda_to_model "$f" ../data/"$BN".model
+    done
+
+for f in *.sysa; do
+    BN=$(basename "$f" .sysa)
+    sysa_to_sys "$f" ../data/"$BN".sys
+    done
+
+for f in *.mapa; do
+    BN=$(basename "$f" .mapa)
+    mapa_to_map "$f" ../data/"$BN".map
+    done
+

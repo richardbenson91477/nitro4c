@@ -1,0 +1,12 @@
+SYS_CMD_DEF_STATES 2 pre main
+SYS_CMD_LOAD_MSG_TYPES ../tools/sys.smt
+
+SYS_CMD_STATE pre
+    SYS_CMD_SEND_MSG . state_set_len 1.0
+    SYS_CMD_SEND_MSG . state_set_next main
+
+SYS_CMD_STATE main
+    SYS_CMD_SEND_MSG . state_set_ignore 1
+
+SYS_CMD_END
+

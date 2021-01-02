@@ -1,0 +1,4 @@
+#!/bin/sh
+convert -crop 32x32 font.png font.bgra
+png_to_bgra alpha_test.png alpha_test.bgra
+png_to_rwh alpha_test.png icon1.rwh

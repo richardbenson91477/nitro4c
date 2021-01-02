@@ -1,0 +1,48 @@
+MAP_CMD_DEF_SYS idle data/idle.sys
+MAP_CMD_DEF_SYS cam_1 data/cam_1.sys
+MAP_CMD_DEF_SYS ball_2 data/ball_2.sys
+MAP_CMD_DEF_SYS hoop_1 data/hoop_1.sys
+
+MAP_CMD_CAM
+    0.0 0.0 4.0
+    0.0 0.0 0.0
+    cam_1
+
+MAP_CMD_ENT
+    -0.5 1.0 0.0
+    0.0 0.0 0.0
+    data/ball.model
+    idle
+
+MAP_CMD_ENT
+    0.0 1.0 -2.0 
+    0.0 0.0 0.0 
+    data/hoop_1.model 
+    hoop_1
+
+MAP_CMD_ENT 
+    0.0 -2.0 0.0 
+    0.0 0.0 0.0 
+    data/cube_1.model 
+    idle
+
+MAP_CMD_ENT 
+    2.0 0.0 0.0 
+    0.0 0.0 0.0 
+    data/cube_1.model 
+    idle
+
+MAP_CMD_ENT 
+    -2.0 0.0 0.0 
+    0.0 0.0 0.0 
+    data/pyramid_1.model 
+    idle
+
+MAP_CMD_ENT
+    0.5 0.0 0.0
+    0.0 0.0 1.6
+    data/ball.model
+    ball_2
+
+MAP_CMD_END
+

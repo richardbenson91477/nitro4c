@@ -1,0 +1,7 @@
+for f in *.png */*.png; do
+    echo "$f"
+    DN=$(dirname "$f")
+    BN=$(basename "$f" .png)
+    png_to_rwh "$f" "$DN"/"$BN".rwh
+    done
+

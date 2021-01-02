@@ -1,0 +1,21 @@
+.map file
+==
+block width
+block height
+player start x
+player start y
+player limit y
+background image
+music
+ent subtypes number
+(for each subtype)
+	int ent type
+	int id
+	tiles number
+	tile basename
+
+.ent file
+==
+(for each ent)
+subtype id, tile cur, collidable, block x, block y
+

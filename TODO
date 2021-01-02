@@ -1,0 +1,5 @@
+add ticks to plot axis
+use timer in win
+more algebraic comp stack, with operator order, etc. e.g.
+    (spline * scale) + (spline * scale)
+pixels are wrapping around from right to left in plot

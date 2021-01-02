@@ -1,0 +1,46 @@
+
+C style conventions for this project
+---
+indents must be four spaces, no \t character,
+    excepting #preprocessor blocks, which are two spaces
+lines should ideally be less than 80 characters wide
+
+func (x) : ordinary call
+func(x) : built-in / C library / system call (when appropriate)
+array [3] : array definition
+array[3] : array reference
+
+_var : pointer, e.g. _enum = &enum
+__var : pointer to pointer, etc.
+_ : NULL (pointer to nothing)
+var_ : boolean, uint8_t type, containing 0 (false) or 1 (true)
+var_s : character string, usu. an identifying name
+var_n : item count or byte length
+var_len : item length specifically, e.g. vector length, time duration, etc.
+var_c : item counter, e.g. for (var_c = 0; var_c < var_n; var_c ++)
+var_t : time or tick related (ideally in float seconds)
+var_r : rate of speed
+var_rad : radius
+var_w : width
+var_hw : half of width
+var_h : height
+var_hh : half of height
+var_x/y/z : x/y/z position
+var_e : enumeration
+var_v : vertex / vector
+var_f : float conversion - e.g. dog_f = (float) dog;
+var_i : int conversion or index
+_var_i : iterator / pointer index specifically
+_s, _f, _d, _u, _i, _b: cstr, float, double, uint32_t, int32_t, uint8_t related
+var_a : array specifically, e.g. dog_a[10] = {dog1, dog2}
+_p or p[] : pool of any data
+_b or b[] : pool of specifically byte data (ideally uint8_t)
+_v : generic void pointer
+
+(struct)_cons : like C++ contructor
+(struct)_decons : like C++ destructor
+(library)_init : global / static initialization, e.g. enable sound subsystem
+(library)_deinit : global / static de-initialization
+
+"return false" (as bool) is fatal, cleanup can be minimal but program should ultimately terminate. use "return 0" (as uint32_t, etc) if failure is acceptable
+

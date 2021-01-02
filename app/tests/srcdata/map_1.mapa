@@ -1,0 +1,22 @@
+MAP_CMD_DEF_SYS idle data/idle.sys
+MAP_CMD_DEF_SYS cam_1 data/cam_1.sys
+
+MAP_CMD_CAM
+    0.0 0.0 4.0
+    0.0 0.0 0.0
+    cam_1
+
+MAP_CMD_ENT
+    -0.2 2.0 0.0
+    0.0 0.0 0.0
+    data/ball.model
+    idle
+
+MAP_CMD_ENT 
+    0.0 -2.0 0.0 
+    0.0 0.0 0.0 
+    data/floor.model 
+    idle
+
+MAP_CMD_END
+

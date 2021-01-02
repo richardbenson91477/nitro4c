@@ -1,0 +1,19 @@
+SYS_CMD_DEF_COMP cam_path_1 data/cam_1.comp
+SYS_CMD_DEF_STATES 2 pre main
+SYS_CMD_LOAD_MSG_TYPES data/sys.smt
+SYS_CMD_LOAD_MSG_TYPES data/map_ent.smt
+
+SYS_CMD_STATE pre
+    SYS_CMD_SEND_MSG . state_set_len 4.0
+    SYS_CMD_SEND_MSG . state_set_next main
+    SYS_CMD_SEND_MSG . ent_set_ignore_phys 1
+    SYS_CMD_SEND_MSG . ent_set_path cam_path_1
+
+SYS_CMD_STATE main
+    SYS_CMD_SEND_MSG . ent_reset_pos_rot
+    SYS_CMD_SEND_MSG . ent_set_ignore_path 1
+    SYS_CMD_SEND_MSG . ent_set_ignore_phys 0
+    SYS_CMD_SEND_MSG . state_set_ignore 1
+
+SYS_CMD_END
+ 
