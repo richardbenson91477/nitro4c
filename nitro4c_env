@@ -1,4 +1,4 @@
-if [ x"$NITRO4C_HOME" = x"" ]; then
+if [ -z "$NITRO4C_HOME" ]; then
     export NITRO4C_HOME=~/Prog/nitro4c
     export PATH="$PATH:$NITRO4C_HOME/bin"
 fi
