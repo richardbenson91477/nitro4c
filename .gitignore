@@ -139,3 +139,9 @@ win/tests/notes
 win/win.a
 win/win.o
 win/win.so
+model/tests/default.rwh
+model/tests/test1.model
+n2hoops/n2hoops
+n2hoops/n2hoops.arc
+n2hoops/n2hoops_arc.h
+
