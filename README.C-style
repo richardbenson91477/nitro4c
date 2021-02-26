@@ -1,9 +1,9 @@
 
 C style conventions for this project
 ---
-indents must be four spaces, no \t character,
-    excepting #preprocessor blocks, which are two spaces
-lines should ideally be less than 80 characters wide
+indents must be four spaces, no <tab> character,
+    excepting #preprocessor blocks, which are two spaces.
+lines should ideally be less than 80 characters wide.
 
 func (x) : ordinary call
 func(x) : built-in / C library / system call (when appropriate)

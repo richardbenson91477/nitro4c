@@ -1,141 +1,141 @@
 tags
-	app/app.a
-	app/app.o
-	app/app.so
-	app/tests/app_1
-	arc/arc.a
-	arc/arc.o
-	arc/arc.so
-	arc/tools/arc_export
-	arc/tools/arc_import
-	arc/tools/arc_report
-	blaze/blaze.a
-	blaze/blaze.o
-	blaze/blaze.so
-	blaze/tests/blaze_1
-	colors/colors.h
-	comp/comp.a
-	comp/comp.o
-	comp/comp.so
-	comp/comp_enums_map.h
-	comp/tests/comp_1
-	comp/tests/comp_2
-	comp/tests/lin01.spline
-	comp/tests/scale10.spline
-	comp/tests/test1.comp
-	comp/tests/test2.comp
-	comp/tools/comp_lerp
-	comp/tools/compa_to_comp
-	dlog/dlog.a
-	dlog/dlog.o
-	dlog/dlog.so
-	dlog/tests/dlog_1
-	draw/draw.a
-	draw/draw.o
-	draw/draw.so
-	draw/tests/draw_1
-	enums_map/enums_map.a
-	enums_map/enums_map.o
-	enums_map/enums_map.so
-	enums_map/tests/enums_map_1
-	fb/fb.a
-	fb/fb.o
-	fb/fb.so
-	fb/tests/fb_1
-	file/file.a
-	file/file.o
-	file/file.so
-	file/tests/data_1
-	file/tests/data_1.h
-	file/tools/data_to_h
-	img/img.a
-	img/img.o
-	img/img.so
-	img/tests/raw_to_raw
-	img/tests/rwh_to_rwh
-	img/tools/png_to_bgra
-	img/tools/png_to_rwh
-	img/tools/rwh_to_ppm
-	map/map.a
-	map/map.o
-	map/map.so
-	map/map_ent.o
-	map/map_ent.smt
-	map/map_enums_map.h
-	map/tools/mapa_to_map
-	model/model.a
-	model/model.o
-	model/model.so
-	model/tests/model_1
-	model/tools/moda_to_model
-	model/tools/ply_to_moda
-	name_map/name_map.a
-	name_map/name_map.o
-	name_map/name_map.so
-	name_map/tests/name_map_1
-	net/net.a
-	net/net.o
-	net/net.so
-	net/tests/cli
-	net/tests/srv
-	or/marlo/brick.o
-	or/marlo/marlo
-	or/marlo/marlo.o
-	or/marlo/marlo_conf.o
-	or/marlo/player.o
-	or/or.a
-	or/or.so
-	or/or_app.o
-	or/or_bg.o
-	or/or_ent.o
-	or/or_ent_type.o
-	or/or_map.o
-	or/or_menu.o
-	or/or_tiles.o
-	plot/plot
-	plot/tests/gen_circles
-	plot/tests/gen_sines
-	snd/snd.a
-	snd/snd.o
-	snd/snd.so
-	snd/tests/snd_1
-	spline/spline.a
-	spline/spline.o
-	spline/spline.so
-	spline/spline_enums_map.h
-	spline/tests/blend_1.spline
-	spline/tests/spline_1
-	spline/tools/spline_lerp
-	spline/tools/splinea_to_spline
-	sys/sys.a
-	sys/sys.o
-	sys/sys.so
-	sys/sys_enums_map.h
-	sys/tests/sys_1
-	sys/tests/sys_1.sys
-	sys/tools/smta_to_smt
-	sys/tools/sys.smt
-	sys/tools/sysa_to_sys
-	timer/tests/timer_1
-	timer/timer.a
-	timer/timer.o
-	timer/timer.so
-	turtle/tests/snowflake
-	turtle/tests/tsquig
-	turtle/turtle.a
-	turtle/turtle.o
-	turtle/turtle.so
-	vgrab/tests/vg_1
-	vgrab/vgrab.a
-	vgrab/vgrab.o
-	vgrab/vgrab.so
-	view/tests/view_1
-	view/view.a
-	view/view.o
-	view/view.so
-	win/tests/alpha_test
-	win/tests/color_test
-	win/tests/notes
-	win/win.a
-	win/win.o
-	win/win.so
+app/app.a
+app/app.o
+app/app.so
+app/tests/app_1
+arc/arc.a
+arc/arc.o
+arc/arc.so
+arc/tools/arc_export
+arc/tools/arc_import
+arc/tools/arc_report
+blaze/blaze.a
+blaze/blaze.o
+blaze/blaze.so
+blaze/tests/blaze_1
+colors/colors.h
+comp/comp.a
+comp/comp.o
+comp/comp.so
+comp/comp_enums_map.h
+comp/tests/comp_1
+comp/tests/comp_2
+comp/tests/lin01.spline
+comp/tests/scale10.spline
+comp/tests/test1.comp
+comp/tests/test2.comp
+comp/tools/comp_lerp
+comp/tools/compa_to_comp
+dlog/dlog.a
+dlog/dlog.o
+dlog/dlog.so
+dlog/tests/dlog_1
+draw/draw.a
+draw/draw.o
+draw/draw.so
+draw/tests/draw_1
+enums_map/enums_map.a
+enums_map/enums_map.o
+enums_map/enums_map.so
+enums_map/tests/enums_map_1
+fb/fb.a
+fb/fb.o
+fb/fb.so
+fb/tests/fb_1
+file/file.a
+file/file.o
+file/file.so
+file/tests/data_1
+file/tests/data_1.h
+file/tools/data_to_h
+img/img.a
+img/img.o
+img/img.so
+img/tests/raw_to_raw
+img/tests/rwh_to_rwh
+img/tools/png_to_bgra
+img/tools/png_to_rwh
+img/tools/rwh_to_ppm
+map/map.a
+map/map.o
+map/map.so
+map/map_ent.o
+map/map_ent.smt
+map/map_enums_map.h
+map/tools/mapa_to_map
+model/model.a
+model/model.o
+model/model.so
+model/tests/model_1
+model/tools/moda_to_model
+model/tools/ply_to_moda
+name_map/name_map.a
+name_map/name_map.o
+name_map/name_map.so
+name_map/tests/name_map_1
+net/net.a
+net/net.o
+net/net.so
+net/tests/cli
+net/tests/srv
+or/marlo/brick.o
+or/marlo/marlo
+or/marlo/marlo.o
+or/marlo/marlo_conf.o
+or/marlo/player.o
+or/or.a
+or/or.so
+or/or_app.o
+or/or_bg.o
+or/or_ent.o
+or/or_ent_type.o
+or/or_map.o
+or/or_menu.o
+or/or_tiles.o
+plot/plot
+plot/tests/gen_circles
+plot/tests/gen_sines
+snd/snd.a
+snd/snd.o
+snd/snd.so
+snd/tests/snd_1
+spline/spline.a
+spline/spline.o
+spline/spline.so
+spline/spline_enums_map.h
+spline/tests/blend_1.spline
+spline/tests/spline_1
+spline/tools/spline_lerp
+spline/tools/splinea_to_spline
+sys/sys.a
+sys/sys.o
+sys/sys.so
+sys/sys_enums_map.h
+sys/tests/sys_1
+sys/tests/sys_1.sys
+sys/tools/smta_to_smt
+sys/tools/sys.smt
+sys/tools/sysa_to_sys
+timer/tests/timer_1
+timer/timer.a
+timer/timer.o
+timer/timer.so
+turtle/tests/snowflake
+turtle/tests/tsquig
+turtle/turtle.a
+turtle/turtle.o
+turtle/turtle.so
+vgrab/tests/vg_1
+vgrab/vgrab.a
+vgrab/vgrab.o
+vgrab/vgrab.so
+view/tests/view_1
+view/view.a
+view/view.o
+view/view.so
+win/tests/alpha_test
+win/tests/color_test
+win/tests/notes
+win/win.a
+win/win.o
+win/win.so
